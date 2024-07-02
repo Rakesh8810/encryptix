@@ -1,0 +1,92 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: #081b29;
+ background-image: url(backgroundImage.jpg);
+ height: 100vh;
+    background-size: cover;
+}
+.logo{
+  font-size: 25px;
+  color: rgb(184, 215, 6);
+  font-weight: 600;
+  text-decoration: none;
+  
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 5%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  z-index: 100;
+  
+}
+p{
+  font-size: large;
+}
+
+.nav a{
+  margin-left: 35px;
+  font-size: 18px;
+  text-decoration: none;
+  color: aliceblue;
+}
+.nav a:hover{
+  color: #e85022;
+}
+
+.home{
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 10% ;
+  font-size:xx-large;
+  margin: 20px;
+}
+.home a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.home a:hover{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.home-content .box{
+   display: flex;
+   justify-content: space-between;
+   width: 345px;
+   height: 50px;
+   margin: 20px 0 40px;
+}
+
+.box{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 100%;
+  
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 600;
+  
+}
+.box a{
+  background: transparent;
+  border: 2px solid rgb(38, 179, 221);
+  color: rgb(38, 179, 221);
+  padding: 1%;
+}
